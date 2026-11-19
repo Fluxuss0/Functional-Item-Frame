@@ -1,0 +1,24 @@
+{
+	"schemaVersion": 1,
+	"id": "functionalitemframe",
+	"icon": "assets/functionalitemframe/icon.png",
+	"version": "${version}",
+	"name": "FunctionalItemFrame",
+	"description": "This mod adds dispenser and hopper functionality for item frames",
+	"authors": [
+		"Fluxuss_"
+	],
+	"contact": {
+		
+	},
+	"license": "MIT",
+	"environment": "*",
+	"mixins": [
+		"functionalitemframe.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.12",
+		"minecraft": "~1.16.5",
+		"java": ">=8"
+	}
+}

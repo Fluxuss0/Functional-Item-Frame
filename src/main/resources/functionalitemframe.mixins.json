@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"minVersion": "0.8",
+	"package": "com.functionalitemframe.mixin",
+	"compatibilityLevel": "JAVA_8",
+	"refmap": "functionalitemframe-refmap.json",
+	"mixins": [
+		"DispenserBlockMixin",
+		"HopperBlockEntityMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
